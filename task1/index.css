@@ -1,0 +1,222 @@
+#navbar{
+    height: 70px;
+    width: 100%;
+    border: 0px solid black;
+    background-color: aquamarine;
+ } 
+img{
+    width: 50px;
+}
+#logo{
+  
+  border-style: solid;
+  border-width: 0px;
+  display: block;
+  width: 70px;
+  height: 70px;
+  background-color: #6e7e89;
+  transition: width 2s, height 2s, background-color 2s, transform 2s;
+}
+
+#logo:hover {
+  width: 70px;
+  height: 70px;
+  transform: rotate(360deg);
+  background-color: #ffcccc;
+}
+
+
+
+#navbar{
+    display: flex;
+}
+#tabs>ul{
+    display: flex;
+    list-style: none;
+    gap: 100px;
+    margin-left: 80%;
+}
+#carousel{
+    width: 100%;
+    height: 470px;
+    border: 0px solid black;
+    background-color: azure;
+    
+}
+#carousel>img{
+    
+    margin-top: 50px;
+    margin-left: 40%;
+    width: 300px;
+}
+#info{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   
+}
+p{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 30px;
+}
+#contact_form{
+text-align: center;
+width: 60%;
+margin-left: 200px;
+line-height: 50px;
+border: 1px solid black;
+background-color: rgb(149, 173, 165);
+}
+#grid{
+    margin-top: 30px;
+    margin-bottom: 50px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+}
+#grid>div>img:hover{
+  width: 320px;
+  height: 220px;
+}
+
+#grid>div>img{
+    width: 300px;
+}
+
+#footer{
+    height: 300px;
+    width: 100%;
+    border: 1px solid black;
+    background-color: rgb(188, 171, 171);
+    
+   
+}
+#links >a{
+    color: black;
+    text-decoration: none;
+    margin: 30px;
+   
+}
+#copyright>p{
+    text-align: center;
+    color: #52636d;
+    font-size: medium;
+  
+}
+#foot{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    margin-top: 50px;
+
+}
+@media all and (min-width:481px) and (max-width:900px){
+#tabs>ul{
+    gap: 30px;
+    margin-left: 30%;
+}
+
+#carousel>img{
+    margin-left: 20%;
+}
+
+p{
+    
+    font-size: 20px;
+}
+#contact_form{
+
+width: 80%;
+margin-left: 30px;
+line-height: 30px;
+
+}
+#grid{
+    margin-top: 50px;
+    grid-template-columns: repeat(2,1fr);
+    gap: 50px;
+}
+#grid>div>img:hover{
+  width: 210px;
+  height: 170px;
+}
+
+#grid>div>img{
+    width: 200px;
+}
+#links >a{
+    margin: 10px;
+   
+}
+#copyright>p{
+   
+  margin-top: 60px;
+}
+#foot{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    margin-top: 50px;
+
+}
+#links{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+}
+@media all and (min-width:320px) and (max-width:480px){
+#tabs>ul{
+    gap: 8px;
+    margin-left: 0%;
+}
+
+#carousel>img{
+    margin-left: 10%;
+}
+#info{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+}
+
+p{
+    
+    font-size: 20px;
+}
+#contact_form{
+
+width: 90%;
+margin-left: 10px;
+line-height: 30px;
+
+}
+#grid{
+    margin-top: 30px;
+    grid-template-columns: repeat(1,1fr);
+    gap: 50px;
+}
+#grid>div>img:hover{
+  width: 330px;
+  height: 220px;
+}
+
+#grid>div>img{
+    width: 310px;
+    margin-left: 10px;
+}
+#links >a{
+    margin: 5px;
+   
+}
+#copyright>p{
+   
+  margin-top: 10px;
+}
+#foot{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 0px;
+
+}
+#links{
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    margin-top: 30px;
+}
+}
